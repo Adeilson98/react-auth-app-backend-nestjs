@@ -19,10 +19,10 @@ import { Product } from "./product/product.entity";
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: '127.0.0.1',
       port: 3306,
       username: 'root', // Substitua pelo seu usuário
-      password: '',   // Substitua pela sua senha
+      password: '24913561',   // Substitua pela sua senha
       database: 'react_auth_products_db',
       entities: [User, Product], // Registre TODAS as suas entidades aqui
       synchronize: true, // CUIDADO: Use `migrations` em produção!
